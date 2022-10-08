@@ -1,0 +1,51 @@
+
+body {
+    background: rgb(224, 223, 223);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.post {
+    margin-block: 60px;
+}
+
+.fondo {
+    background: rgb(224, 223, 223);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cuadroFoto {
+    background: white;
+    width: 500px;
+}
+
+.foto img {
+    width: 100%;
+    position: relative;
+}
+
+.encabezadoFoto {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+.encabezadoFoto div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    width: 160px;
+}
+
+.fechaFoto {
+    color: grey;
+}
